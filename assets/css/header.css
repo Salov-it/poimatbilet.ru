@@ -1,0 +1,117 @@
+/* ===== HEADER BASE ===== */
+
+.site-header{
+  background:#020617;
+  border-bottom:1px solid var(--border);
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:56px;                 /* компактная высота */
+  padding:0 10px;
+}
+
+/* ===== LOGO ===== */
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo-icon{
+  width:34px;
+  height:34px;
+  border-radius:10px;
+  background:linear-gradient(135deg,#6366f1,#4f46e5);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-weight:700;
+  font-size:14px;
+}
+
+.logo-text{
+  color:white;
+  font-weight:600;
+  font-size:15px;
+}
+
+/* ===== DESKTOP MENU ===== */
+
+.menu{
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+
+.menu a{
+  color:var(--muted);
+  text-decoration:none;
+  font-size:14px;
+}
+
+.menu-btn{
+  background:var(--primary);
+  padding:8px 14px;
+  border-radius:10px;
+  color:white !important;
+  font-size:14px;
+}
+
+/* ===== BURGER ===== */
+
+.burger{
+  display:none;
+  background:none;
+  border:none;
+  cursor:pointer;
+}
+
+.burger span{
+  display:block;
+  width:20px;
+  height:2px;
+  background:white;
+  margin:4px 0;
+  border-radius:2px;
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+  .header-inner{
+    height:52px;
+  }
+
+  .burger{
+    display:block;
+  }
+
+  .menu{
+    position:absolute;
+    top:52px;
+    left:0;
+    width:100%;
+    background:#020617;
+    border-top:1px solid var(--border);
+    flex-direction:column;
+    display:none;
+  }
+
+  .menu a{
+    padding:12px;
+    text-align:center;
+  }
+
+  .menu.show{
+    display:flex;
+  }
+}

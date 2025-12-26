@@ -1,0 +1,59 @@
+.card{
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+  transition: .25s;
+}
+
+.card:hover{
+  border-color: #6366f1;
+  transform: translateY(-2px);
+}
+
+/* Primary button */
+
+.btn-primary{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 14px 26px;
+  background: linear-gradient(135deg,#6366f1,#4f46e5);
+  color: #fff;
+  border-radius: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.btn-primary:hover{
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+/* Mobile */
+
+@media (max-width: 768px){
+  .card{
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .btn-primary{
+    width: 100%;
+    padding: 14px;
+    margin-top: 14px;
+  }
+}
+
+.route-card a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.route-card a:hover{
+  text-decoration: none !important;
+  color: #fff !important;
+}

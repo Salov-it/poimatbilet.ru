@@ -1,14 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
- <url>
-  <loc>https://poimatbilet.ru/</loc>
-  <priority>1.0</priority>
- </url>
-
- <url>
-  <loc>https://poimatbilet.ru/tickets/moskva-sochi/</loc>
-  <priority>0.9</priority>
- </url>
-
+<url><loc>https://poimatbilet.ru/routes/moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-nn/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-adler/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-nsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-samara/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-rostov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/moscow/moscow-simferopol/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-nn/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-murmansk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-pskov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-petrozavodsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-adler/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/spb/spb-nsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-adler/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-anapa/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-gelendzhik/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-novorossiysk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-tuapse/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-rostov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/krasnodar/krasnodar-simferopol/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-samara/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-ufa/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-tyumen/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-chelyabinsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-perm/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-nsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ekb/ekb-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-omsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-krasnoyarsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-tomsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-barnaul/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-irkutsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/nsk/nsk-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-nn/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-samara/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-ufa/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-adler/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-rostov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/kazan/kazan-krasnodar/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-krasnodar/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-adler/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-anapa/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-voronezh/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-volgograd/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-simferopol/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/rostov/rostov-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-ufa/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-saratov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-volgograd/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-rostov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-krasnodar/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/samara/samara-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-samara/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-perm/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-chelyabinsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-nn/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-rostov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/ufa/ufa-sochi/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-moscow/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-spb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-krasnodar/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-rostov/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-kazan/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-samara/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-ekb/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-nsk/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-voronezh/</loc></url>
+<url><loc>https://poimatbilet.ru/routes/sochi/sochi-simferopol/</loc></url>
 </urlset>

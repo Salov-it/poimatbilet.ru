@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Мониторинг и авто-бронирование билетов РЖД — поймать билет автоматически</title>
-<meta name="description" content="Сервис автоматического мониторинга и авто-бронирования билетов РЖД. Поймать билеты, когда их нет — уведомим и забронируем автоматически."/>
-<meta name="robots" content="index,follow"/>
+<title>Автоматическая ловля и мониторинг билетов РЖД — PoimatBilet</title>
+<meta name="description" content="PoimatBilet автоматически отслеживает появление билетов РЖД и помогает купить билет, когда мест нет. Уведомления и автобронирование через Telegram.">
+
+<link rel="canonical" href="https://poimatbilet.ru/">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-<style>
-body{margin:0;font-family:Inter,system-ui;background:#0b1020;color:#e5e7eb}
-.wrap{max-width:1100px;margin:auto;padding:40px 16px}
-h1{font-size:42px;margin-bottom:10px}
-h2{margin-top:60px}
-p{color:#cbd5f5;font-size:16px;line-height:1.6}
-.card{background:#020617;border:1px solid #1e293b;border-radius:16px;padding:20px;margin-top:20px}
-.btn{display:inline-block;margin-top:16px;padding:14px 22px;background:#4f46e5;color:#fff;border-radius:12px;text-decoration:none}
-footer{text-align:center;color:#64748b;margin:60px 0}
-</style>
+<link rel="stylesheet" href="/assets/css/reset.css">
+<link rel="stylesheet" href="/assets/css/variables.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/header.css">
+<link rel="stylesheet" href="/assets/css/footer.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+<link rel="stylesheet" href="/assets/css/pages.css">
 </head>
 <body>
-<div class="wrap">
 
-<h1>Автоматическое бронирование и мониторинг билетов РЖД</h1>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <div class="logo-icon">PB</div>
+      <div class="logo-text">PoimatBilet</div>
+    </div>
 
-<p>
-<b>poimatbilet.ru</b> — сервис мониторинга билетов РЖД и авто-бронирования мест.
-Когда билетов нет, мы автоматически отслеживаем их появление и моментально
-уведомляем вас в Telegram, а также можем автоматически забронировать нужные места.
-</p>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
 
-<a href="https://t.me/poimatbilet" class="btn">Подписаться на Telegram</a>
+    <nav class="menu" id="mobileMenu">
+      <a href="/">Главная</a>
+      <a href="/routes/">Направления</a>
+      <a href="https://t.me/poimatbilet" class="menu-btn">Telegram</a>
+    </nav>
+  </div>
+</header>
 
-<h2>Как работает сервис</h2>
-<div class="card">
-<p>Вы выбираете направление, дату и тип мест. Сервис 24/7 проверяет наличие билетов на сайте РЖД.</p>
-<p>Как только билеты появляются, вы получаете уведомление в Telegram. По желанию сервис автоматически бронирует места.</p>
-</div>
+<main class="container">
 
-<h2>Почему билеты пропадают</h2>
-<div class="card">
-<p>Билеты РЖД часто выкупаются за минуты. Освобождения мест происходят ночью, утром и за несколько дней до отправления.</p>
-<p>Без автоматического мониторинга отследить такие появления практически невозможно.</p>
-</div>
+<section class="hero">
+  <h1>Автоматическая ловля и мониторинг билетов РЖД</h1>
+  <p>
+    PoimatBilet — сервис мониторинга билетов РЖД и авто-бронирования мест.
+    Когда билетов нет, мы автоматически отслеживаем их появление и мгновенно
+    уведомляем в Telegram, а также можем автоматически забронировать нужные места.
+  </p>
+  <a href="https://t.me/poimatbilet" class="btn-primary">Подписаться на Telegram</a>
+</section>
 
-<h2>Что вы получаете</h2>
-<div class="card">
-<ul>
-<li>Мониторинг билетов РЖД 24/7</li>
-<li>Уведомления в Telegram</li>
-<li>Автоматическое бронирование</li>
-</ul>
-</div>
+<section class="card">
+  <h2>Как работает сервис</h2>
+  <p>
+    Вы выбираете направление, дату и тип мест. Сервис 24/7 проверяет наличие билетов на сайте РЖД.
+    Как только билеты появляются — вы получаете уведомление и можете сразу оформить покупку.
+  </p>
+</section>
 
-<h2>Частые запросы</h2>
-<div class="card">
-<p>Поймать билет РЖД</p>
-<p>Мониторинг билетов РЖД</p>
-<p>Автобронирование билетов РЖД</p>
-<p>Когда появятся билеты на поезд</p>
-</div>
+<section class="card">
+  <h2>Почему билеты быстро пропадают</h2>
+  <p>
+    Освобождения мест происходят ночью, утром и за несколько дней до отправления.
+    Без автоматического мониторинга такие появления почти невозможно поймать вручную.
+  </p>
+</section>
 
-<footer>© 2025 poimatbilet.ru — сервис мониторинга билетов РЖД</footer>
+<section class="card">
+  <h2>Что вы получаете</h2>
+  <p>
+    Мониторинг билетов 24/7, уведомления в Telegram и возможность автоматического бронирования —
+    без ручного обновления сайтов и потери времени.
+  </p>
+</section>
 
-</div>
+</main>
+
+<footer class="site-footer">
+  © 2025 PoimatBilet — мониторинг и авто-бронирование билетов РЖД
+</footer>
+
+<script src="/assets/js/menu.js"></script>
 </body>
 </html>

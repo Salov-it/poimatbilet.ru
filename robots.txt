@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Host: poimatbilet.ru
 Sitemap: https://poimatbilet.ru/sitemap.xml
